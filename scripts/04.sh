@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 crontab -l > crontab_tmp
 echo "0 0 * * 1 \
 	old_tab=\"\`md5sum /etc/crontab.log 2>-\`\" \
